@@ -1,11 +1,10 @@
 
 ## Badges
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![Go Report Card](https://goreportcard.com/badge/github.com/halilylm/prometheusmiddleware)](https://goreportcard.com/report/github.com/halilylm/prometheusmiddleware)
 # Prometheus Middleware For Fiber
 
-Middleware for prometheus to observe metrics.
+Middleware for prometheus to observe metrics below.
 
 You can also register other metrics and see them in path you define.
 
@@ -21,7 +20,7 @@ You can also register other metrics and see them in path you define.
 
 
 ```bash
-  go get github.com/halilylm/prometheusmiddleware@v0.1.0
+  go get github.com/halilylm/prometheusmiddleware@v0.0.1
 ```
     
 ## Usage/Examples
@@ -30,7 +29,7 @@ You can also register other metrics and see them in path you define.
 middlewarePath := "/metrics"
 app := fiber.New()
 registry := prometheus.NewRegistry()
-middleware := NewPrometheusMiddleware(registry, middlewarePath)
+middleware := prometheusmiddleware.NewPrometheusMiddleware(registry, middlewarePath)
 middleware.Use(app)
 ```
 
