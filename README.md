@@ -20,7 +20,7 @@ You can also register other metrics and see them in path you define.
 
 
 ```bash
-  go get github.com/halilylm/prometheusmiddleware@v0.0.1
+  go get github.com/halilylm/prometheusmiddleware@v0.1.0
 ```
     
 ## Usage/Examples
