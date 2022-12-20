@@ -2,6 +2,12 @@
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![Go Report Card](https://goreportcard.com/badge/github.com/halilylm/prometheusmiddleware)](https://goreportcard.com/report/github.com/halilylm/prometheusmiddleware)
+
+# Buy me a coffee
+I put a lot of effort on open source projects. You can thank by buying a coffee :)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/HxbwM8Z)
+
+
 # Prometheus Middleware For Fiber v2
 
 Middleware for prometheus to observe metrics.
